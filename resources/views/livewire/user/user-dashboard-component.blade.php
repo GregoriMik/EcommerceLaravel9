@@ -1,3 +1,3 @@
 <div>
-    {{-- The best athlete wants his opponent at his best. --}}
+    <h1>User Dashboard</h1>
 </div>
