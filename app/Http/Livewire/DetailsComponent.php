@@ -11,7 +11,7 @@ class DetailsComponent extends Component
     
     public function mount($slug)
     {
-
+        $this->slug = $slug;
     }
     
     public function render()
