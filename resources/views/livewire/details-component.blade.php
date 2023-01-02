@@ -81,7 +81,7 @@
                                         </div>
                                         <div class="clearfix product-price-cover">
                                             <div class="product-price primary-color float-left">
-                                                <ins><span class="text-brand">{{$product->regular_price}}</span></ins>
+                                                <ins><span class="text-brand">{{$product->regular_price}}zł</span></ins>
                                                 {{-- <ins><span class="old-price font-md ml-15">$200.00</span></ins> --}}
                                                 <span class="save-price  font-md color3 ml-15">25% Off</span>
                                             </div>
@@ -512,7 +512,7 @@
                             @foreach ($nproducts as $nproduct)
                                 <div class="single-post clearfix">
                                     <div class="image">
-                                        <img src="{{ asset('assets/imgs/shop/thumbnail-') }}{{$nproduct->id}} .jpg'" alt="{{$nproduct->name}}">
+                                        <img src="{{ asset('assets/imgs/shop/thumbnail-') }}{{$nproduct->id}}.jpg" alt="{{$nproduct->name}}">
                                     </div>
                                     <div class="content pt-10">
                                         <h5><a href="{{route('product.details',['slug'=>$nproduct->slug])}}">{{$nproduct->name}}</a></h5>
